@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #29487d17;
+    align-items: center;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+
+.facebook h1{
+    color: #1877f2;
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.facebook p{
+    padding-right: 20px;
+    font-size: 1.8em;
+}
+   
+.login{
+    width: 800px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.533);
+}
+
+.login input{
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:  1px solid rgba(0, 0, 0, 0.146);
+}
+div .btn1{
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:  1px solid rgba(0, 0, 0, 0.256);
+    font-size: 1.1em;
+    background-color: rgb(75, 75, 240);
+    color: white;
+    font-weight: bolder;
+}
+.login p{
+    color: #1877f2;
+    padding-bottom: 15px;
+}
+div .btn2{
+    width: 200px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border:  1px solid rgba(0, 0, 0, 0.256);
+    font-size: 1.1em;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bolder;
+}
+ hr{
+    text-align: center;
+    align-items: center;
+ }
+hr{
+    align-items: center;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
