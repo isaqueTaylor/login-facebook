@@ -78,3 +78,23 @@ hr{
     margin: 20px 16px;
     text-align: center;
 }
+@media (max-width: 720px){
+    body{
+        display: inline-block;
+        flex-wrap: wrap;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .facebook h1{
+        align-items: center;
+        font-size: 2em;
+    }
+    .facebook p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .login{
+        width: 300px;
+    }
+}
